@@ -17,10 +17,11 @@ body {
 }
 
 img {
-  width: 45%;
+  width: 60%;
   border-radius: 8px;
   display: block;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .subheader {
@@ -56,4 +57,13 @@ img {
   background-color: lightyellow;
   border: 1px solid black;
   padding: 10px;
+}
+
+#facts_types {
+  display: flex;
+  gap: 20px;
+}
+
+#facts, #types {
+  flex: 1;
 }
