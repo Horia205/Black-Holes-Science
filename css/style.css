@@ -84,3 +84,39 @@ img {
 #facts, #types {
   flex: 1;
 }
+
+/*new media query, these rules only apply when the screen is 600px wide or smaller (like a phone)*/
+@media (max-width: 600px) {
+ 
+  /*makes the text a comfortable size on small screens*/
+  body {
+    font-size: 16px;
+  }
+ 
+  /*makes the headings a bit smaller so they fit on a narrow screen*/
+  h2 {
+    font-size: 22px;
+  }
+ 
+  /*stacks the facts and types boxes on top of each other instead of side by side*/
+  #facts_types {
+    flex-direction: column;
+    gap: 10px;
+  }
+ 
+  /*the boxes were 50% wide, so they are changed to fill the screen when stacked*/
+  #facts, #types {
+    width: auto;
+  }
+ 
+  /*makes the image bigger on small screens*/
+  img {
+    width: 90%;
+  }
+ 
+  /*makes the button smaller so it does not run off the screen*/
+  .button {
+    padding: 10px;
+    margin: 5px;
+  }
+}
