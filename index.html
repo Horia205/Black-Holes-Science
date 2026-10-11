@@ -7,14 +7,15 @@
     <title>The Science of Black Holes</title> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head> 
 
   <body> 
-
-    <header id="main_page_header">
+    <div class="container mt-4">
+    <header id="main_page_header" class="text-center mb-4 p-3">
     <!--The title in the biggest font--> 
     <h1>The Science of Black Holes</h1>
-    <p>Be ready to discover the amazing world of black holes.</p>
+    <p class="lead">Be ready to discover the amazing world of black holes.</p>
     </header>
 
 
@@ -27,15 +28,16 @@
 
 
       <!--The visualisation of a black hole-->
-      <img src=".\images\blackhole.jpg" alt="A black hole shown as a dark circle surrounded by a bright glowing ring of gas and light." width="75%" />
+      <img src="./images/blackhole.jpg" alt="A black hole shown as a dark circle surrounded by a bright glowing ring of gas and light." class="img-fluid rounded d-block mx-auto w-75 mb-4" />
 
       </section>
 
 
 
-      <div id="facts_types">
+      <div id="facts_types" class="row">
       <!--The interesting facts in an unordered list-->
-      <section id="facts">
+      <section class="col-md-6 mb-4">
+      <div id="facts" class="p-3 border border-dark h-100">
       <h2 class="subheader">Interesting facts: </h2>
 
       <ul> 
@@ -46,10 +48,12 @@
       <li>Black holes can evaporate over time</li>
       <li>A black hole's "point of no return" is called the event horizon</li>
       </ul>
+      </div>
       </section>
 
       <!--The types of black holes in an ordered list-->
-      <section id="types">
+      <section class="col-md-6 mb-4">
+      <div id="types" class="p-3 border border-dark h-100">
       <h2 class="subheader">Types of Black Holes</h2>
 
       <ol>
@@ -58,20 +62,23 @@
       <li>Supermassive Black Holes: Found at the centers of most galaxies, including the Milky Way.</li>
       <li>Primordial Black Holes: Hypothetical black holes that may have formed shortly after the Big Bang.</li>
       </ol>
+      </div>
       </section>
       </div>
 
       <!--Giving the option for more information on the NASA website-->
-      <p class="button">Check out <a href="https://science.nasa.gov/universe/black-holes/">NASA's website about black holes</a></p>
+      <p class="text-center"><a href="https://science.nasa.gov/universe/black-holes/" class="btn btn-success">Check out NASA's website about black holes</a></p>
 
     </main>
 
     <!--The link to the second page-->
-    <footer id="footer">
-    <nav>
-    <a href="page2.html">Read more fun facts about black holes on Page 2</a>
+    <footer id="footer" class="mt-5 mb-4">
+    <nav class="d-flex justify-content-center">
+    <a href="page2.html" class="btn btn-primary">Read more fun facts about black holes on Page 2</a>
     </nav>
     </footer>
+
+    </div>
     
   </body> 
 
