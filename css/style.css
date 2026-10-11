@@ -76,9 +76,9 @@ img {
 
 /*makes the facts section blue with a border*/
 #facts {
-  width: 50%;
-  /*
   background-color: lightblue;
+  /*
+  width: 50%;
   border: 1px solid black;
   padding: 10px;
   */
@@ -86,9 +86,9 @@ img {
 
 /*makes the types section yellow with a border*/
 #types {
-  width: 50%;
-  /*
   background-color: lightyellow;
+  /*
+  width: 50%;
   border: 1px solid black;
   padding: 10px;
   */
